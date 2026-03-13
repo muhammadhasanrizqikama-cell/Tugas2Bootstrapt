@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Digital - Otomotif</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <style>
+        body { background-color: #f4f4f4; font-family: 'Inter', sans-serif; }
+        
+        /* Navbar */
+        .navbar { background-color: #5662a4; border-bottom: 3px solid #6a4cb0; }
+        
+        /* Hero Section - Nuansa Racing & Engine */
+        .hero-section {
+            background: linear-gradient(rgba(57, 53, 112, 0.7), rgba(49, 77, 134, 0.6)), 
+                        url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            color: white;
+        }
+
+        /* Cards */
+        .main-card { border: none; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .sidebar-card { border: none; border-radius: 8px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        
+        /* Info Boxes Otomotif */
+        .info-box { background-color: #f8f9fa; border-radius: 8px; padding: 25px; height: 100%; border-bottom: 4px solid #dc3545; }
+        .info-box-dark { background-color: #212529; color: white; border-bottom: 4px solid #ffc107; }
+        .icon-wrapper { font-size: 32px; margin-bottom: 15px; }
+
+        /* Sidebar Custom */
+        .status-header { background-color: #363199; color: white; padding: 15px; text-align: center; font-weight: bold; text-transform: uppercase; }
+        .progress-bar-danger { background-color: #5448c4 !important; }
+
+        /* Footer */
+        footer { background-color: #5300b8; color: #666; padding: 30px 0; font-size: 14px; }
+
+        .btn-danger-custom { background-color: #1b2471; color: white; border-radius: 4px; font-weight: bold; transition: 0.3s; }
+        .btn-danger-custom:hover { background-color: #4d3f8a; color: white; transform: translateY(-2px); }
+
+        .badge-oto { background-color: #343a40; padding: 8px 12px; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-gear-wide-connected me-2 text-danger"></i>SMK OTO-TECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="tugas2.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ok">Visi Misi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#okok">Data Siswa</a></li>
+
+     <div class="dropdown">
+                    <button class="btn  btn-light " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Jurusan
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-white">
+                    <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+                    <li><a class="dropdown-item" href="tkj.html">TKJ</a></li>
+                    <li><a class="dropdown-item" href="kuliner.html">KULINER</a></li>
+                    <li><a class="dropdown-item" href="busana.html">BUSANA</a></li>
+                    <li><a class="dropdown-item" href="otomotif.html">OTOMOTIF</a></li>
+                    </ul>
+                  </div>
+      </ul>
+    </div>
+        </div>
+    </nav>
+
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="fw-bold display-4 mb-3">TEKNIK KENDARAAN RINGAN</h1>
+            <p class="lead mx-auto" style="max-width: 800px;">
+                Menguasai Teknologi Mesin, Kelistrikan, dan Sistem Sasis Kendaraan Masa Depan. Siap Menjadi Teknisi Handal di Dunia Global.
+            </p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row g-4">
+            
+            <div class="col-lg-8">
+                <div class="card main-card p-4 p-md-5">
+                    <h2 class="fw-bold mb-4 text-dark"><i class="bi bi-tools me-2 text-danger"></i>Teknologi & Mekanik Presisi</h2>
+                    <p class="text-secondary mb-5" style="text-align: justify; line-height: 1.8;">
+                        Jurusan Teknik Kendaraan Ringan (TKR) memberikan pemahaman mendalam mengenai perawatan dan perbaikan kendaraan bermotor. Siswa akan dibekali keahlian dalam mendiagnosis kerusakan menggunakan alat pemindai modern (Scanner), melakukan <i>overhaul</i> mesin, merawat sistem kelistrikan otomotif, hingga pemeliharaan sistem AC dan pemindah tenaga. Kami memadukan teori mekanik klasik dengan teknologi EFI (Electronic Fuel Injection) terbaru.
+                    </p>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <div class="text-danger icon-wrapper"><i class="bi bi-cpu-fill"></i></div>
+                                <h5 class="fw-bold">Engine Management</h5>
+                                <p class="small text-muted mb-0">Pemeliharaan mesin bensin dan diesel dengan sistem kontrol elektronik modern.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box info-box-dark">
+                                <div class="text-warning icon-wrapper"><i class="bi bi-lightning-charge-fill"></i></div>
+                                <h5 class="fw-bold">Electrical System</h5>
+                                <p class="small text-muted mb-0">Instalasi kelistrikan bodi, pengisian baterai, dan teknologi kendaraan listrik (EV) dasar.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="fw-bold mb-4">Fasilitas Bengkel</h4>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Laboratorium Engine & EFI
+                            <span class="badge badge-oto rounded-pill text-white">Full Tools Set</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Unit Praktik Kendaraan (Pabrikan Jepang/Eropa)
+                            <span class="badge badge-oto rounded-pill text-white">4 Unit Terbaru</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Area Spooring & Balancing
+                            <span class="badge badge-oto rounded-pill text-white">Digital Sensor</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card sidebar-card mb-4">
+                    <div class="status-header">Pendaftaran Terbatas</div>
+                    <div class="card-body p-4 text-center">
+                        <h6 class="fw-bold text-muted mb-3">KUOTA TERSISA</h6>
+                        <h2 class="fw-bold text-danger display-5 mb-3">15</h2>
+                        <div class="progress mb-4" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-danger" style="width: 85%"></div>
+                        </div>
+                        <button class="btn btn-danger-custom w-100 py-3 mb-2 shadow-sm">AMBIL POSISI SEKARANG</button>
+                        <small class="text-muted"><i class="bi bi-info-circle me-1"></i> Termasuk Wearpack Praktik Gratis</small>
+                    </div>
+                </div>
+
+                <div class="card sidebar-card">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80" class="card-img-top" alt="Mechanic Alumni">
+                    <div class="card-body">
+                        <p class="fst-italic text-secondary small mb-3">
+                            "Disiplin di bengkel sekolah membuat saya mudah beradaptasi di industri. Sekarang saya dipercaya menjadi Service Advisor di dealer resmi."
+                        </p>
+                        <p class="fw-bold small mb-0 text-dark">— Budi Santoso, Senior Mechanic (Alumni 2021)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0 text-white">© 2026 SMK DIGITAL OTOMOTIF. Precision Parts, Professional Heart.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

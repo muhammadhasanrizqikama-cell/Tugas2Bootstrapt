@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Digital - Desain Busana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <style>
+        body { background-color: #fafafa; font-family: 'Georgia', serif; }
+        
+        /* Navbar */
+        .navbar { background-color: #303675; }
+        
+        /* Hero Section - Nuansa Fashionable */
+        .hero-section {
+            background: linear-gradient(rgba(21, 69, 172, 0.7), rgba(72, 25, 127, 0.7)), 
+                        url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            color: white;
+        }
+
+        /* Cards */
+        .main-card { border: none; border-radius: 0px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        .sidebar-card { border: none; border-radius: 0px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        
+        /* Info Boxes Busana */
+        .info-box { background-color: #fce4ec; border-radius: 0px; padding: 25px; height: 100%; border-left: 5px solid #e91e63; }
+        .info-box-alt { background-color: #f3e5f5; border-left: 5px solid #9c27b0; }
+        .icon-wrapper { font-size: 30px; margin-bottom: 15px; }
+
+        /* Sidebar Custom */
+        .status-header { background-color: #464e8f; color: white; padding: 15px; text-align: center; letter-spacing: 2px; }
+        .progress-bar-fashion { background-color: #265865 !important; }
+
+        /* Footer */
+        footer { background-color: #2c3875; color: #888; padding: 30px 0; font-size: 14px; }
+
+        .btn-fashion { background-color: #393080; color: white; border-radius: 0px; transition: 0.3s; }
+        .btn-fashion:hover { background-color: #2d3d6d; color: white; }
+
+        h1, h2, h4 { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-scissors me-2 text-pink"></i>SMK FASHION</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="tugas2.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ok">Visi Misi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#okok">Data Siswa</a></li>
+
+     <div class="dropdown">
+                    <button class="btn  btn-light " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Jurusan
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-white">
+                    <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+                    <li><a class="dropdown-item" href="tkj.html">TKJ</a></li>
+                    <li><a class="dropdown-item" href="kuliner.html">KULINER</a></li>
+                    <li><a class="dropdown-item" href="busana.html">BUSANA</a></li>
+                    <li><a class="dropdown-item" href="otomotif.html">OTOMOTIF</a></li>
+                    </ul>
+                  </div>
+      </ul>
+    </div>
+        </div>
+    </nav>
+
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="fw-bold display-4 mb-3">DESAIN KOMUNIKASI VISUAL & BUSANA</h1>
+            <p class="lead mx-auto fst-italic" style="max-width: 800px;">
+                "Mengubah Imajinasi Menjadi Mahakarya Tekstil. Jadilah Trendsetter Masa Depan."
+            </p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row g-5">
+            
+            <div class="col-lg-8">
+                <div class="card main-card p-4 p-md-5">
+                    <h2 class="fw-bold mb-4">Eksplorasi Gaya & Konstruksi Pakaian</h2>
+                    <p class="text-secondary mb-5" style="text-align: justify; line-height: 2;">
+                        Jurusan Busana menyiapkan siswa untuk menjadi ahli di bidang fashion industri maupun *entrepreneurship*. Di sini, siswa mempelajari seluruh proses penciptaan busana, mulai dari teknik menggambar proporsi tubuh (Fashion Illustration), pembuatan pola dasar dan pecah pola, teknik menjahit halus, hingga manajemen bisnis fashion dan penyelenggaraan peragaan busana (Fashion Show).
+                    </p>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <div class="text-danger icon-wrapper"><i class="bi bi-palette-fill"></i></div>
+                                <h5 class="fw-bold">Fashion Design</h5>
+                                <p class="small text-muted mb-0">Mempelajari tren warna, tekstur bahan, dan menciptakan desain original untuk berbagai kesempatan.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box info-box-alt">
+                                <div class="text-purple icon-wrapper" style="color: #9c27b0;"><i class="bi bi-fingerprint"></i></div>
+                                <h5 class="fw-bold">Custom Made</h5>
+                                <p class="small text-muted mb-0">Teknik pembuatan busana pesanan khusus seperti kebaya, gaun pesta, hingga jas pria dengan teknik haute couture.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="fw-bold mb-4">Fasilitas Workshop</h4>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Laboratorium Menjahit Digital
+                            <span class="badge bg-dark rounded-pill px-3">Mesin High Speed</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Studio Fashion Design & Drapping
+                            <span class="badge bg-dark rounded-pill px-3">Manekin Standar Int'l</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Unit Produksi (Butik Sekolah)
+                            <span class="badge bg-dark rounded-pill px-3">Komersial</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card sidebar-card mb-4">
+                    <div class="status-header fw-bold">ADMISSION OPEN</div>
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between small fw-bold mb-2">
+                            <span>Sisa Kuota</span>
+                            <span>12 Kursi</span>
+                        </div>
+                        <div class="progress mb-4" style="height: 8px; border-radius: 0;">
+                            <div class="progress-bar progress-bar-fashion" style="width: 75%"></div>
+                        </div>
+                        <button class="btn btn-fashion w-100 fw-bold py-3 mb-3 shadow-sm">DAFTAR SEKARANG</button>
+                        <div class="text-center">
+                            <hr>
+                            <p class="small text-muted">Konsultasi Bakat? <a href="#" class="text-pink">Klik di sini</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card sidebar-card">
+                    <img src="https://images.unsplash.com/photo-1590736961648-36423531b212?auto=format&fit=crop&q=80" class="card-img-top" alt="Designer">
+                    <div class="card-body bg-white">
+                        <p class="fst-italic text-secondary small mb-3">
+                            "Berawal dari coretan di buku, sekarang desain saya sudah tampil di panggung nasional. SMK benar-benar mengasah teknik menjahit saya dari nol."
+                        </p>
+                        <p class="fw-bold small mb-0 text-dark">— Maya, Fashion Designer (Alumni 2023)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">© 2026 SMK FASHION DIGITAL. Stitching Future, Designing Dreams.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
